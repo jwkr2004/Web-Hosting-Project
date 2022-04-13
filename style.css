@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.SignIn{
+    position: relative;
+    left: 10vw;
+    top: 5vh;
+    width: 80vw;
+    height: 80vh;
+    border: solid 2px rgb(255, 255, 255);
+    background-color:rgb(228, 135, 30);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+form{
+    text-align: right;
+    position: relative;
+    right: 40%;
+    margin-top: 5%;
+}
+
+input{
+    width: 20%;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-left: 5px;
+    padding: 2px 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+select{
+    width: 21.15%;
+    font-size: 1rem;
+    border-radius: 5px 10px 5px 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#title{
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+    font-family: sans-serif;
+    font-size: 2.5rem; 
+    text-shadow: 2px 1px black;
+}
+
+body{
+    background-color: rgb(85, 85, 85);
+    font-family: "Open Sans";
+    color:rgb(54, 54, 54);
+    
+}
+
+.plan{
+    position: relative;
+    left: 10vw;
+    top: 5vh;
+    display: grid;
+    grid-template-columns: 12;
+    grid-template-rows: 40vh 30vh 9vh;
+    width: 80vw;
+    height: 80vh;
+    border: solid 2px white;
+    background-color: rgb(21, 138, 216);
+    color: white;
+}
+
+.box{
+    margin: 2.5%;
+    padding: 2%;
+    position: relative;
+    width: 90%;
+    border: solid 2px white;
+    background-color: rgb(54, 54, 54);
+}
+
+.box h2{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.box h1{
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 5%;
+}
+
+.box ul{
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 1.2em;
+}
+
+.box2{
+    position: relative;
+    top: 24.5vh;
+    border: solid 2px white;
+    background-color:rgb(54, 54, 54);
+    width: 90%;
+    height: 20vh;
+}
+
+#Cbutton{
+    border: solid 2px white;
+    background-color:rgb(54, 54, 54);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#basic{
+    grid-column: 1/5;
+}
+
+#advanced{
+    grid-column: 5/9;
+}
+
+#ultimate{
+    grid-column: 9/13;
+}
+
+#dur1{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+#dur2{
+    grid-column: 4/7;
+    grid-row: 2/3;
+}
+
+#dur3{
+    grid-column: 7/10;
+    grid-row: 2/3;
+}
+
+#dur4{
+    grid-column: 10/13;
+    grid-row: 2/3;
+}
+
+#Cbutton{
+    grid-column: 5/9;
+    grid-row: 3/4;
+}

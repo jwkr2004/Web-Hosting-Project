@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Hosting</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Web Hosting</h1>
+    <div class="plan">
+        <div class="box" id="basic" onclick="planSelect(1)">
+            <h2>Basic Plan</h2><br>
+            <ul>
+                <li>Price: $3.99/Month</li>
+                <li>Storage: 50GB</li>
+                <li>Transfer: 100mbs</li>
+                <li>Pages: 5</li>
+            </ul>
+        </div>
+    
+        <div class="box" id="advanced" onclick="planSelect(2)">
+            <h2>Advanced Plan</h2><br>
+            <ul>
+                <li>Price: $5.99/Month</li>
+                <li>Storage: 500GB</li>
+                <li>Transfer: 500mbs</li>
+                <li>Pages: 50</li>
+            </ul>
+        </div>
+    
+        <div class="box" id="ultimate" onclick="planSelect(3)">
+            <h2>Ultimate Plan</h2><br>
+            <ul>
+                <li>Price: $9.99/Month</li>
+                <li>Storage: 2000GB</li>
+                <li>Transfer: 3000mbs</li>
+                <li>Pages: 200</li>
+            </ul>
+        </div>
+
+        <div class="box" id="dur1" onclick="timeSelect(1)">
+            <h1>1 Month</h1>
+        </div>
+
+        <div class="box" id="dur2" onclick="timeSelect(2)">
+            <h1>3 Months</h1>
+        </div>
+        
+        <div class="box" id="dur3" onclick="timeSelect(3)">
+            <h1>6 Months</h1>
+        </div>
+
+        <div class="box" id="dur4" onclick="timeSelect(4)">
+            <h1>12 Months</h1>
+        </div>
+
+        <div class="box" id="Cbutton" onclick="calcPrice()">Calculate Price</div>
+    </div>
+
+</body>
+</html>

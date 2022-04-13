@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Web Hosting</h1>
+    <div class="SignIn">
+        <form>
+            <label>First Name: </label>
+            <input type="text" required id="fName"><br>
+            <label>Last Name: </label>
+            <input type="text" required id="lName"><br>
+            <label>Business Name: </label>
+            <input type="text"><br><br>
+            <label>Country: </label>
+            <select id="country">
+                <option>Select a Country</option>
+                <option>United States</option>
+            </select><br>
+            <label>Street Address: </label>
+            <input type="text" required id="sAddr"><br>
+            <label>City: </label>
+            <input type="text" required id="city"><br>
+            <label>State: </label>
+            <select id="state">
+                <option>Select a State</option>
+                <option>Arizona</option>
+            </select><br>
+            <label>ZIP Code: </label>
+            <input type="text" required id="zip"><br>
+            <label>Phone Number: </label>
+            <input type="text" required id="pNum"><br>
+            <label>Email Address: </label>
+            <input type="email"><br>
+            <button type="button" onclick="formValidation()">Check Pricing</button>
+        </form>
+    </div>
+</body>
+</html>
